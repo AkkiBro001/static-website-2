@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="social-container">
+       <div class="social-media-icons">
+        <img src="./img/facebook-square-brands.svg" class="icons" alt="" srcset="">
+        <img src="./img/twitter-square-brands.svg" class="icons" alt="" srcset="">
+        <img src="./img/pinterest-square-brands.svg" class="icons" alt="" srcset="">
+        <img src="./img/instagram-square-brands.svg" class="icons" alt="" srcset="">
+       </div>
+
+       <div class="chatbox">
+        <img src="./img/comment-dots-solid.svg" class="icons" alt="">
+       </div>
+    </div>
+    <main>
+        <nav>
+            <input type="checkbox" id="Hamburger">
+            <label class="Hamburger" for="Hamburger">
+                <img src="./img/hamburger.png" alt="Img1">
+            </label>
+            <ul>
+                <label for="Hamburger" class="Hamburger-close">
+                    <span></span>
+                    <span></span>
+                </label>
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="#aboutme">About</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <li> <a href="">Client Albums</a></li>
+                <li> <a href="">Book Online</a></li>
+                <li class="login"> <a href=""><img src="./img/profile_img.svg" alt="Img1">Log in </a></li>
+
+            </ul>
+            
+        </nav>
+
+        <div class="Banner">
+            <img src="./img/flower.webp" alt="">
+            <h2> Charlotte M<span>c</span>Coy</h2>
+            <p> Wedding Photography</p>
+
+        </div>
+
+        <div class="aboutme" id="aboutme">
+            <div class="img-section">
+                <img src="https://picsum.photos/id/111/1600/900" alt="">
+                
+
+            </div>
+            <div class="txt-section">
+                <p class="main-header">About me</p>
+                <div class="para">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, magnam, unde, error cum ab
+                        beatae doloremque eligendi ratione animi illum expedita neque dicta est nihil quaerat earum
+                        excepturi perferendis officia! Inventore tenetur maxime asperiores rerum.</p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, nesciunt! Ad earum culpa
+                        in illo quo hic aspernatur incidunt debitis id fuga. Accusantium modi, perferendis ratione
+                        commodi eligendi tempora possimus iste eaque provident earum, ea soluta inventore ullam
+                        voluptate? Corporis voluptates sunt necessitatibus ratione asperiores ipsa culpa est ex
+                        nesciunt!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, maxime aperiam voluptatum sit
+                        temporibus eius quis quos dolorum, illum illo tenetur enim? Tenetur exercitationem excepturi
+                        nemo fugit doloremque autem sunt!</p>
+                </div>
+                <a href="">Book a session</a>
+
+            </div>
+
+            
+
+
+        </div>
+
+        <div class="grid-section" id="portfolio">
+                
+            <div class="img1"><img src="https://picsum.photos/id/112/1600/900" alt=""></div>
+            <div class="img2"><img src="https://picsum.photos/id/113/1600/900" alt=""></div>
+            <div class="img3"><img class="img3" src="https://picsum.photos/id/114/1600/900" alt=""></div>
+            <div class="img4"><img class="img4" src="https://picsum.photos/id/115/1600/900" alt=""></div>
+            <div class="img5"><img class="img5" src="https://picsum.photos/id/116/1600/900" alt=""></div>
+            <div class="img6"><img class="img6" src="https://picsum.photos/id/117/1600/900" alt=""></div>
+            <div class="img7"><img class="img7" src="https://picsum.photos/id/118/1600/900" alt=""></div>
+            <div class="img8"><img class="img8" src="https://picsum.photos/id/119/1600/900" alt=""></div>
+            <div class="img9"><img class="img9" src="https://picsum.photos/id/120/1600/900" alt=""></div>
+            <div class="img10"><img class="img10" src="https://picsum.photos/id/122/1600/900" alt=""></div>
+            <div class="img11"><img class="img11" src="https://picsum.photos/id/123/1600/900" alt=""></div>
+            <div class="img12"><img class="img12" src="https://picsum.photos/id/124/1600/900" alt=""></div>
+
+
+        </div>
+
+        <div class="quote-container">
+            <section>
+                <p>"Capturing the moments of today that will wow your heart tomorrow"</p>
+            </section>
+        </div>
+
+        <div class="form-container" id="contact">
+            <div class="form-section">
+                <section>
+                    <div class="contact-section">
+                        <p class="main-header">Let's talk</p>
+                        <p>
+                        500 Terry Francois St.<br/>
+                        San Francisco, CA 94158<br/>
+                        Tel: 123-456-7890 <br/>
+                        info@mysite.com<br/>
+                        </p>
+                    </div>
+                    <form action="">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" placeholder="Enter Your First Name">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" placeholder="Enter Your Last Name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Your Email">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter Your Subject">
+                        <label for="message">Subject</label>
+                        <textarea id="message" placeholder="Enter Your Message Here...." rows="10"></textarea>
+                        </textarea>
+                        <input type="submit" value="Send" class="send">
+                    </form>
+                </section>
+            </div>
+            <div class="form-img-section">
+                <img src="https://picsum.photos/id/111/1600/900" alt="">
+            </div>
+        </div>
+
+        <footer>
+            <div class="backtotop">
+                <a href="#"><img src="./img/angle-up-solid.svg" alt="" style="width: 25px;"></a>
+                <p>Back to Top</p>
+                
+            </div>
+            <p>© 2023 by Charlotte McCoy. Proudly created with Wix.com</p>
+        </footer>
+
+    </main>
+</body>
